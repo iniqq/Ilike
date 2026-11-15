@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "maceswap",
+  "version": "${version}",
+  "name": "Mace Swap",
+  "description": "Client-side Mace Swap, Breach Swap and Smart Swap for private SMP PvP.",
+  "environment": "client",
+  "entrypoints": { "client": ["dev.maceswap.MaceSwapClient"] },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
